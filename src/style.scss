@@ -1,0 +1,13 @@
+$link-color: blue; //SCSS-Variable zur vielfältigen Verwendung
+
+a {
+    color: $link-color; //SCSS-Variable
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+//  Kompilieren in Konsole: sass style.scss
+//      Kompiler ist IMMER sass, kompiliert aber auch scss!
+//      "sass style.scss style.css" speichert den kompilierten SCSS-Code in (neuer) CSS-Datei
